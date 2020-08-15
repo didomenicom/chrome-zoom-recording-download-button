@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Zoom Recording Download Button",
+	"version": "1.0.0",
+	"description": "A chrome extension to add a button to Zoom recording pages enabling the file to be downloaded.",
+	"browser_action": {
+		"default_icon": "images/icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://*.zoom.us/rec/play/*"],
+			"js": ["button-add.js"],
+			"all_frames": true
+		}
+	]
+}

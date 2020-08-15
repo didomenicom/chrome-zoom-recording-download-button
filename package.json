@@ -1,0 +1,21 @@
+{
+	"name": "chrome-zoom-recording-download-button",
+	"version": "1.0.0",
+	"description": "A chrome extension to add a button to Zoom recording pages enabling the file to be downloaded",
+	"scripts": {
+		"package": "node util/package.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/didomenicom/chrome-zoom-recording-download-button.git"
+	},
+	"author": "Mike Di Domenico",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/didomenicom/chrome-zoom-recording-download-button/issues"
+	},
+	"homepage": "https://github.com/didomenicom/chrome-zoom-recording-download-button#readme",
+	"dependencies": {
+		"crx": "^5.0.1"
+	}
+}
