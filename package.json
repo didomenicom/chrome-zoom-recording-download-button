@@ -16,6 +16,7 @@
 	},
 	"homepage": "https://github.com/didomenicom/chrome-zoom-recording-download-button#readme",
 	"dependencies": {
+		"archive": "0.0.2",
 		"crx": "^5.0.1"
 	}
 }
