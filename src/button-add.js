@@ -2,7 +2,7 @@ window.addEventListener("load", function (e) {
 	// Check if there is already a download button
 	var downloadButtonExists = document.getElementsByClassName("download");
 
-	if (!downloadButtonExists) {
+	if (!downloadButtonExists || downloadButtonExists.length === 0) {
 		// Get the source video URL
 		var sourceVideoObj = document.getElementsByTagName("video")[0];
 		var sourceVideoUrl = sourceVideoObj.getAttribute("src");
