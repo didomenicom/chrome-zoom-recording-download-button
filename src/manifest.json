@@ -9,8 +9,7 @@
 	"content_scripts": [
 		{
 			"matches": ["https://*.zoom.us/rec/play/*"],
-			"js": ["button-add.js"],
-			"all_frames": true
+			"js": ["button-add.js"]
 		}
 	]
 }
